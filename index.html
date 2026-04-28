@@ -1,1 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- SEO -->
+  <title>Maison Café | Specialty Coffee & Handmade Food</title>
+  <meta 
+    name="description" 
+    content="A warm and modern café experience with specialty coffee, handmade food, cozy atmosphere and local ingredients."
+  />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" 
+    rel="stylesheet"
+  >
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+
+      <a href="#" class="logo" aria-label="Maison Café Home">
+        <span class="logo__mark">M</span>
+        <span class="logo__text">Maison Café</span>
+      </a>
+
+      <nav class="nav" id="navMenu" aria-label="Main Navigation">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#menu" class="nav__link">Menu</a>
+        <a href="#gallery" class="nav__link">Gallery</a>
+        <a href="#location" class="nav__link">Visit</a>
+        <a href="#contact" class="nav__link nav__link--button">Reserve</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+  <main>
+
+    <section class="hero">
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content reveal">
+        <p class="eyebrow">Specialty Coffee · Handmade Food · Local Feel</p>
+
+        <h1 class="hero__title">
+          More than Coffee. <br>
+          A Place to Arrive.
+        </h1>
+
+        <p class="hero__text">
+          Welcome to Maison Café — your warm neighborhood spot for exceptional coffee, 
+          fresh handmade food and slow moments in a beautifully designed atmosphere.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#location" class="btn btn--primary">Visit Us</a>
+          <a href="#menu" class="btn btn--secondary">View Menu</a>
+        </div>
+      </div>
+
+      <div class="hero__info-card reveal">
+        <span>Open Today</span>
+        <strong>08:00 – 18:00</strong>
+        <small>Central Street 24 · Basel</small>
+      </div>
+    </section>
+
+
+    <!-- ================= TRUST BAR ================= -->
+    <section class="trust-bar">
+      <div class="container trust-bar__inner">
+        <p>Freshly roasted beans</p>
+        <span></span>
+        <p>Homemade pastries</p>
+        <span></span>
+        <p>Local ingredients</p>
+      </div>
+    </section>
+
+
+    <!-- ================= USP SECTION ================= -->
+    <section class="section usp-section">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">Why guests love us</p>
+          <h2>A café experience built around quality, comfort and taste.</h2>
+        </div>
+
+        <div class="usp-grid">
+
+          <article class="usp-card reveal">
+            <div class="usp-card__icon">☕</div>
+            <h3>Specialty Coffee</h3>
+            <p>
+              Carefully selected beans, balanced extraction and every cup prepared with intention.
+            </p>
+          </article>
+
+          <article class="usp-card reveal">
+            <div class="usp-card__icon">🥐</div>
+            <h3>Handmade Food</h3>
+            <p>
+              Fresh pastries, seasonal brunch plates and simple food made with real ingredients.
+            </p>
+          </article>
+
+          <article class="usp-card reveal">
+            <div class="usp-card__icon">🪑</div>
+            <h3>Cozy Atmosphere</h3>
+            <p>
+              Warm light, soft textures and a calm interior made for conversations, work and slow mornings.
+            </p>
+          </article>
+
+          <article class="usp-card reveal">
+            <div class="usp-card__icon">🌿</div>
+            <h3>Local & Fresh</h3>
+            <p>
+              We work with trusted local partners and keep our menu fresh, honest and seasonal.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section class="section about-section" id="about">
+      <div class="container about">
+
+        <div class="about__image reveal">
+          <img src="images/about.jpg" alt="Interior of Maison Café with warm lighting and coffee atmosphere">
+        </div>
+
+        <div class="about__content reveal">
+          <p class="eyebrow">Our Story</p>
+
+          <h2>Created for people who love good coffee and beautiful everyday moments.</h2>
+
+          <p>
+            Maison Café was born from a simple idea: a café should feel like a small escape. 
+            A place where the coffee is excellent, the food is handmade and the atmosphere 
+            makes people want to stay a little longer.
+          </p>
+
+          <p>
+            From the first espresso in the morning to a relaxed afternoon with friends, 
+            we focus on quality, hospitality and a warm neighborhood feeling.
+          </p>
+
+          <div class="about__features">
+            <div>
+              <strong>12+</strong>
+              <span>Signature drinks</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Freshly prepared</span>
+            </div>
+            <div>
+              <strong>4.9</strong>
+              <span>Guest rating</span>
+            </div>
+          </div>
+
+          <a href="#location" class="text-link">Plan your visit →</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= MENU PREVIEW ================= -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+
+        <div class="section-heading section-heading--center reveal">
+          <p class="eyebrow">Menu Preview</p>
+          <h2>Simple, fresh and made with care.</h2>
+          <p>
+            A small selection of guest favorites. Replace these items with the real café menu.
+          </p>
+        </div>
+
+        <div class="menu-layout">
+
+          <div class="menu-card reveal">
+            <div class="menu-card__header">
+              <h3>Coffee</h3>
+              <span>Freshly brewed</span>
+            </div>
+
+            <ul class="menu-list">
+              <li>
+                <div>
+                  <h4>Espresso</h4>
+                  <p>Rich, balanced and intense.</p>
+                </div>
+                <span>CHF 4.20</span>
+              </li>
+
+              <li>
+                <div>
+                  <h4>Cappuccino</h4>
+                  <p>Silky milk foam and house espresso.</p>
+                </div>
+                <span>CHF 5.50</span>
+              </li>
+
+              <li>
+                <div>
+                  <h4>Flat White</h4>
+                  <p>Double shot, smooth texture, bold taste.</p>
+                </div>
+                <span>CHF 6.20</span>
+              </li>
+
+              <li>
+                <div>
+                  <h4>Iced Latte</h4>
+                  <p>Cold, creamy and lightly sweet.</p>
+                </div>
+                <span>CHF 6.80</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-card menu-card--dark reveal">
+            <div class="menu-card__header">
+              <h3>Food</h3>
+              <span>Handmade daily</span>
+            </div>
+
+            <ul class="menu-list">
+              <li>
+                <div>
+                  <h4>Butter Croissant</h4>
+                  <p>Flaky, warm and baked fresh.</p>
+                </div>
+                <span>CHF 4.90</span>
+              </li>
+
+              <li>
+                <div>
+                  <h4>Avocado Toast</h4>
+                  <p>Sourdough, herbs and seasonal topping.</p>
+                </div>
+                <span>CHF 13.50</span>
+              </li>
+
+              <li>
+                <div>
+                  <h4>Granola Bowl</h4>
+                  <p>Greek yogurt, berries and homemade granola.</p>
+                </div>
+                <span>CHF 11.80</span>
+              </li>
+
+              <li>
+                <div>
+                  <h4>Banana Bread</h4>
+                  <p>Soft, rich and served lightly toasted.</p>
+                </div>
+                <span>CHF 5.80</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="center reveal">
+          <a href="#contact" class="btn btn--primary">View Full Menu</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= GALLERY SECTION ================= -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">Atmosphere</p>
+          <h2>Warm light, good coffee and a place that feels easy.</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item--large reveal">
+            <img src="images/gallery-1.jpg" alt="Coffee cup on wooden table">
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-2.jpg" alt="Fresh pastry in café">
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-3.jpg" alt="Cozy café interior">
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-4.jpg" alt="Barista preparing coffee">
+          </figure>
+
+          <figure class="gallery-item gallery-item--wide reveal">
+            <img src="images/gallery-5.jpg" alt="Friends enjoying coffee together">
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-6.jpg" alt="Café counter with fresh food">
+          </figure>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= LOCATION & HOURS ================= -->
+    <section class="section location-section" id="location">
+      <div class="container location-layout">
+
+        <div class="location-content reveal">
+          <p class="eyebrow">Visit Us</p>
+          <h2>Find us in the heart of the neighborhood.</h2>
+
+          <p>
+            Stop by for your morning coffee, a relaxed brunch or an afternoon break. 
+            We are easy to reach and always happy to welcome you.
+          </p>
+
+          <div class="info-list">
+
+            <div class="info-item">
+              <span>Address</span>
+              <strong>Central Street 24, 4051 Basel</strong>
+            </div>
+
+            <div class="info-item">
+              <span>Opening Hours</span>
+              <strong>Mon – Fri: 08:00 – 18:00</strong>
+              <strong>Sat – Sun: 09:00 – 17:00</strong>
+            </div>
+
+            <div class="info-item">
+              <span>Contact</span>
+              <strong>hello@maisoncafe.ch</strong>
+              <strong>+41 61 000 00 00</strong>
+            </div>
+
+          </div>
+
+          <a href="#contact" class="btn btn--primary">Reserve a Table</a>
+        </div>
+
+        <div class="map-card reveal">
+          <!-- Replace this iframe with the real Google Maps embed code -->
+          <iframe 
+            title="Google Maps location placeholder"
+            src="https://www.google.com/maps?q=Basel%20Switzerland&output=embed"
+            loading="lazy">
+          </iframe>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section testimonials-section">
+      <div class="container">
+
+        <div class="section-heading section-heading--center reveal">
+          <p class="eyebrow">Guest Reviews</p>
+          <h2>People come for the coffee. They return for the feeling.</h2>
+        </div>
+
+        <div class="testimonial-grid">
+
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>
+              “Beautiful atmosphere, excellent cappuccino and the kind of place where 
+              you instantly feel welcome.”
+            </p>
+            <div class="testimonial-card__author">
+              <strong>Anna Keller</strong>
+              <span>Local Guest</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>
+              “The food is fresh, the interior is stunning and the coffee is honestly 
+              one of the best in town.”
+            </p>
+            <div class="testimonial-card__author">
+              <strong>Marco Stein</strong>
+              <span>Weekend Regular</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>
+              “Perfect spot for a calm morning, a quick meeting or just taking a break. 
+              Warm, stylish and high quality.”
+            </p>
+            <div class="testimonial-card__author">
+              <strong>Sophie Müller</strong>
+              <span>Coffee Lover</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= FINAL CTA ================= -->
+    <section class="cta-section" id="contact">
+      <div class="container cta reveal">
+        <p class="eyebrow">Your table is waiting</p>
+
+        <h2>Visit us today and enjoy coffee the way it should feel.</h2>
+
+        <p>
+          Whether you come alone, with friends or for a quiet work session — 
+          Maison Café is ready to welcome you.
+        </p>
+
+        <div class="cta__actions">
+          <a href="tel:+41610000000" class="btn btn--primary">Call Now</a>
+          <a href="mailto:hello@maisoncafe.ch" class="btn btn--secondary">Send Email</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__grid">
+
+      <div class="footer__brand">
+        <a href="#" class="logo logo--footer">
+          <span class="logo__mark">M</span>
+          <span class="logo__text">Maison Café</span>
+        </a>
+
+        <p>
+          Specialty coffee, handmade food and a warm neighborhood atmosphere.
+        </p>
+      </div>
+
+      <div class="footer__column">
+        <h3>Contact</h3>
+        <a href="mailto:hello@maisoncafe.ch">hello@maisoncafe.ch</a>
+        <a href="tel:+41610000000">+41 61 000 00 00</a>
+        <span>Central Street 24, Basel</span>
+      </div>
+
+      <div class="footer__column">
+        <h3>Hours</h3>
+        <span>Mon – Fri: 08:00 – 18:00</span>
+        <span>Sat – Sun: 09:00 – 17:00</span>
+      </div>
+
+      <div class="footer__column">
+        <h3>Social</h3>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">TikTok</a>
+      </div>
+
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 Maison Café. All rights reserved.</p>
+      <div>
+        <a href="#">Privacy</a>
+        <a href="#">Imprint</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
